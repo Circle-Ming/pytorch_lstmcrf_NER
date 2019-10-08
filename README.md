@@ -1,5 +1,5 @@
 ## LSTM-CRF Model for Named Entity Recognition (or Sequence Labeling)
-
+(Most Work Done by [AllanJ](https://github.com/allanj))
 This repository implements an LSTM-CRF model for named entity recognition. The model is same as the one by [Lample et al., (2016)](http://www.anthology.aclweb.org/N/N16/N16-1030.pdf) except we do not have the last `tanh` layer after the BiLSTM.
 We achieve the SOTA performance on both CoNLL-2003 and OntoNotes 5.0 English datasets (check our [benchmark](/docs/benchmark.md)). 
 
